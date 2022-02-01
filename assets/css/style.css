@@ -184,3 +184,18 @@ h1 span{
   padding-bottom: 60px;
   font-size: 50px;
 }
+.container {
+  max-width: 1140px;
+  margin: auto;
+  text-align: center;
+}
+.col-lg-3.col-md-6 {
+  flex: 0 0 21%;
+  max-width: 21%;
+  width: 100%;
+  margin: 2%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
